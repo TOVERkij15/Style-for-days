@@ -1,0 +1,248 @@
+
+
+
+.body:{
+padding:100%;
+margins:0px;
+}
+
+
+
+
+.header {
+	padding-top: 100px;
+	font-color:solid white;
+	font-size:75px;
+	text-align: center;
+  	width: 100%;
+  	height: 400px;
+	background: radial-gradient(ellipse at center, rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%);
+   	transition: all        0.2s linear,
+              width      1s ease,
+              background 0.5s ease;
+    
+}
+
+.header:hover {
+	width:300px;
+
+}
+ .wrapper {
+ 	display: inline-block;
+ 	width: 50%;
+ 	margin-top:100px;
+ 	margin-bottom:50px;
+ 	font-size: 30px;
+ }
+
+.sidebar {
+	width: 15%;
+	float: right;
+	margin: 0;
+}
+
+.list {
+	font-family:Asap;
+	font-size: 40px;
+	margin-top:50px;
+}
+
+.box {
+	transition:all 0.3s linear,
+	width 2s ease, background 0.7s;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	margin-top:100px;
+	margin-right: 100px;
+	margin-bottom:0px;
+	margin-left: 20px;
+	width:50%;
+	height:40px;
+	background:rgb(228, 92, 196);
+	float:right;
+	font-size:24px;
+	text-align: center;
+
+}
+
+.box:hover{
+	background-color: rgb(213, 228,92);
+}
+
+.circle { 
+	background: rgb(92, 228, 227);
+	border-radius: 10px;
+	width: 50%;
+	height:30px;
+	padding-top:100px;
+	float:right;
+	font-size: 24px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	text-align: center;
+
+
+}
+
+.circle:hover {
+	background: rgb(228, 134, 92);
+	border-radius: 75px;
+	transition: all 2s linear, 
+	width 2s, background 0.2s;
+
+}
+
+
+.p3 {
+	padding-top: 100px;
+
+}
+
+.box-shadow {
+	box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top: 100px;
+	padding-top: 40px;
+	font-size: 12px;
+	background-color: rgb(78, 17, 66);
+	border-radius: 10px;
+}
+
+.p4 {
+	padding-top:100px;
+}
+
+.shadow-button {
+	box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:0px;
+	margin-top: 100px;
+	padding-top: 40px;
+	font-size: 12px;
+	background-color: rgb(78, 17, 66);
+	border-radius: 10px;
+}
+
+.shadow-button:active {
+	height: 60px;
+	box-shadow: inset 0px 0px 5px rgb(49,9,41);
+	margin-top:120px;
+}
+
+.p5 {
+	padding:100px;
+}
+
+    @-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(100deg);
+  }
+}
+ @-webkit-keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+
+
+.keyframe-1 {
+     -webkit-animation: infinite-spinning 1s infinite;
+     margin-top:100px;
+     margin-bottom:0px;
+     margin-left:100px;
+     margin-right:270px;
+	 height:100px;
+     width: 100px;
+     float:right;
+     padding-top: 0px;
+     border-radius: 20px;
+     background-color: rgb (78, 17, 66);
+ }
+
+
+
+
+.keyframe-2 {
+	 -webkit-animation: spinning 1s infinite;
+     margin-top:100px;
+     margin-bottom:100px;
+     margin-right: 300px;
+     margin-left:50px;
+	 height:100px;
+     width: 100px;
+     float:right;
+     padding-top: 10px;
+     border-radius: 20px;
+
+}
+
+.sad {
+	background-image: url(http://31.media.tumblr.com/tumblr_m0ud11pWDp1r00caao1_500.jpg);
+	display: inline-block;
+	margin-right:500px;
+	float:right;
+	width: 500px;
+	height: 500px;
+} 
+
+
+.sad:active {
+	background-image: url(http://thumbs.dreamstime.com/x/empty-coffee-cup-13292072.jpg);
+	display: inline-block;
+	height: 500px;
+	width:500px;
+	margin-right: 500px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+}
+}
+}
+
+}
